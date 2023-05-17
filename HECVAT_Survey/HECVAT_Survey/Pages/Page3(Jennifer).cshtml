@@ -1,0 +1,305 @@
+﻿@page
+@model HECVAT_Survery.Pages.Page3_Jennifer_Model
+@{
+}
+<script>
+    //javascript popup
+    function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+    }
+</script>
+
+
+@if (Model.errorMessage.Length > 0)
+{
+    <div class='alert alert-warning alert-dismissible fade show' role="alert">
+        <strong>@Model.errorMessage</strong>
+        <button type="button" class='btn-close' data-bs-dismiss='alert' aria-label="Close"></button>
+    </div>
+}
+
+<table>
+    <thead>
+        <tr>
+            <th>Question</th>
+            <th>Answer</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <form action="" id="Page_3" method="POST" class="form">
+
+        <tr>
+            <td valign="top">
+                41) Does your company manage the physical data center where the institution's data will reside?
+                If your answer is no, please explain how you manage the physical data center.
+            </td>
+            <td>
+                <label for="answer41">
+                    <textarea type="text" cols="40" rows="7" style="resize: none;" id="answer41" value="@Model.clientInfo.Question_41" name="answer41"></textarea>
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>42) Does your organization have physical security controls and policies in place?</td>
+            <td>
+                <label for="answer42">
+                        @Html.RadioButton("answer42","Yes") Yes
+                </label>
+                <label for="answer42">
+                        @Html.RadioButton("answer42","No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>43) Do you have physical access control and video surveillance to prevent/detect unauthorized access to your data center? </td>
+            <td>
+                <label for="answer43">
+                        @Html.RadioButton("answer43","Yes") Yes
+                </label>
+                <label>
+                        @Html.RadioButton("answer43","No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                <p>44) Do you use an automated <span><a href="https://www.juniper.net/us/en/research-topics/what-is-ids-ips.html#:~:text=with%20IDS%2FIPS%3F-,Intrusion%20detection%20systems%20(IDS)%20and%20intrusion%20prevention%20systems%20(IPS,reporting%20them%20to%20security%20administrators.">IDS/IPS</a></span> system to monitor for intrusions?</p>
+            </td>
+            <td>
+                <label for="answer44">
+                        @Html.RadioButton("answer44","Yes") Yes
+                </label>
+                <label>
+                        @Html.RadioButton("answer44","No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>45) Do you enforce network segmentation between trusted and untrusted networks (i.e., Internet, DMZ, Extranet, etc.)?</td>
+            <td>
+                <label for="answer45">
+                        @Html.RadioButton("answer45","Yes") Yes
+                </label>
+                <label>
+                        @Html.RadioButton("answer45","No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td valign="top">46) Do you have a formal incident response plan? If so, please give us a quick summary of the plan.</td>
+            <td>
+                <textarea type="text" cols="40" rows="7" style="resize: none;" id="answer46" value="@Model.clientInfo.Question_46" name="answer46"></textarea>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                47) Do you carry cyber-risk insurance to protect against unforeseen service outages, data that
+                is lost or stolen, and security incidents?
+            </td>
+            <td>
+                <label for="answer47">
+                        @Html.RadioButton("answer47","Yes") Yes
+                </label>
+                <label>
+                        @Html.RadioButton("answer47","No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>48) Do you have the capability to respond to incidents on a 24x7x365 basis?</td>
+            <td>
+                <label for="answer48">
+                        @Html.RadioButton("answer48","Yes") Yes
+                </label>
+                <label>
+                        @Html.RadioButton("answer48","No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td valign="top">49) Can you share the organization chart, mission statement, and policies for your in security unit?</td>
+            <td>
+                <textarea type="text" cols="40" rows="7" style="resize: none;" id="answer49" value="@Model.clientInfo.Question_49" name="answer49"></textarea>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                50) Will institution data be shared with or hosted by any third parties? (e.g. any entity not
+                wholly-owned by your company is considered a third-party)
+            </td>
+            <td>
+                <label for="answer50">
+                        @Html.RadioButton("answer50","Yes") Yes
+                </label>
+                <label>
+                        @Html.RadioButton("answer50","No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>51) Do you perform security assessments of third party companies with which you share data? (i.e. hosting providers, cloud services, PaaS, IaaS, SaaS, etc.).</td>
+            <td>
+                <label for="answer51">
+                        @Html.RadioButton("answer51","Yes") Yes
+                </label>
+                <label>
+                        @Html.RadioButton("answer51","No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td valign="top"> 52) Do you have an implemented third party management strategy? If yes, please explain to us this strategy.</td>
+            <td>
+                <textarea type="text" cols="40" rows="7" style="resize: none;" id="answer52" value="@Model.clientInfo.Question_52" name="answer52"></textarea>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                53) Do you have a process and implemented procedures for managing your hardware supply chain? (e.g., telecommunications
+                equipment, export licensing, computing devices)
+            </td>
+            <td>
+                <label for="answer53">
+                        @Html.RadioButton("answer53","Yes") Yes
+                </label>
+                <label>
+                        @Html.RadioButton("answer53","No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>54) Are information security principles designed into the product lifecycle?</td>
+            <td>
+                <label for="answer54">
+                        @Html.RadioButton("answer54","Yes") Yes
+                </label>
+                <label>
+                        @Html.RadioButton("answer54","No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>55) Do you have a documented information security policy?</td>
+            <td>
+                <label for="answer55">
+                        @Html.RadioButton("answer55","Yes") Yes
+                </label>
+                <label>
+                        @Html.RadioButton("answer55","No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                56) Do you have an incident response process and reporting in place
+                to investigate any potential incidents and report actual incidents?
+            </td>
+            <td>
+                <label for="answer56">
+                        @Html.RadioButton("answer56","Yes") Yes
+                </label>
+                <label>
+                        @Html.RadioButton("answer56","No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>57) Do you have either an internal incident response team or retain an external team?</td>
+            <td><input type="text" id="answer57" value="@Model.clientInfo.Question_57" name="answer57" /></td>
+        </tr>
+
+
+        <tr>
+            <td>
+                <p>58) Are you utilizing a <span><a href="https://www.security.org/antivirus/spi-firewall/">stateful packet inspection (SPI)</a></span> firewall?</p>
+            </td>
+            <td>
+                <label for="answer58">
+                        @Html.RadioButton("answer58","Yes") Yes
+                </label>
+                <label>
+                        @Html.RadioButton("answer58","No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>59) Are you employing any next-generation persistent threat (NGPT) monitoring?</td>
+            <td>
+                <label for="answer59">
+                        @Html.RadioButton("answer59","Yes") Yes
+                </label>
+                <label>
+                        @Html.RadioButton("answer59","No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>60) Are you generally able to accommodate storing each institution's data within their geographic region?</td>
+            <td>
+                <label for="answer60">
+                        @Html.RadioButton("answer60","Yes") Yes
+                </label>
+                <label>
+                        @Html.RadioButton("answer60","No") No
+                </label>
+            </td>
+        </tr>
+
+            @if (Model.success.Length > 0)
+            {
+            <div class="row mb-3">
+                <div class="col-sm-9">
+                    <div class='alert alert-success alert-dismissible fade show' role="alert">
+                        <strong>@Model.success</strong>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                </div>
+            </div>
+            }
+
+        </form>
+    </tbody>
+</table>
+
+
+
+<div>‎ </div>
+<button type="submit" form="Page_3" class="btn btn-primary">Next Page</button>

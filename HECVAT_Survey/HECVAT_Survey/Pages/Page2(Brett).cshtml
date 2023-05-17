@@ -1,0 +1,322 @@
+﻿@page
+@model HECVAT_Survey.Pages.Page2_Brett_Model
+@{
+}
+
+<script>
+    function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+    }
+</script>
+
+@if (Model.errorMessage.Length > 0)
+{
+    <div class='alert alert-warning alert-dismissable fade show' role="alert">
+        <strong>@Model.errorMessage</strong>
+        <button type="button" class='btn-close' data-bs-dismiss='alert' aria-label="Close"></button>
+    </div>
+}
+
+
+<table>
+    <thead>
+        <tr>
+            <th>Question</th>
+            <th>Answer</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <form action="" id="Page_2" method="POST" class="form">
+
+        <tr>
+            <td valign="top">
+                <p>21) Are access controls for institutional accounts based on structured roles, such as <span><a href="https://www.digitalguardian.com/blog/what-role-based-access-control-rbac-examples-benefits-and-more">role-based access control</a></span> (RBAC), <span><a href="https://www.okta.com/blog/2020/09/attribute-based-access-control-abac/">attribute-based access control</a></span> (ABAC) or <span><a href="https://csrc.nist.gov/glossary/term/policy_based_access_control#:~:text=Definition(s)%3A,and%20differences%20are%20automatically%20applied.">policy-based access control</a></span> (PBAC)?</p>
+            </td>
+            <td>
+                <label for="answer21">
+                        @Html.RadioButton("answer21", "Yes") Yes
+                </label>
+                <label for="answer21">
+                        @Html.RadioButton("answer21", "No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>22) Are access controls for staff within your organization based on structured roles, such as RBAC, ABAC, or PBAC?</td>
+            <td>
+                <label for="answer22">
+                        @Html.RadioButton("answer22", "Yes") Yes
+                </label>
+                <label for="answer22">
+                        @Html.RadioButton("answer22", "No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>23) Do you have a documented and currently implemented strategy for securing employee work stations when they work remotely? (i.e. not in a trusted computing environment)</td>
+            <td>
+                <label for="answer23">
+                        @Html.RadioButton("answer23", "Yes") Yes
+                </label>
+                <label for="answer23">
+                        @Html.RadioButton("answer23", "No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                24) Does the system provide data input validation and error messages?
+            </td>
+            <td>
+                <label for="answer24">
+                        @Html.RadioButton("answer24", "Yes") Yes
+                </label>
+                <label for="answer24">
+                        @Html.RadioButton("answer24", "No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>25) Are you using a <span> <a href="https://www.f5.com/glossary/web-application-firewall-waf">web application firewall</a></span> (WAF)?</td>
+            <td>
+                <label for="answer25">
+                        @Html.RadioButton("answer25", "Yes") Yes
+                </label>
+                <label for="answer25">
+                        @Html.RadioButton("answer25", "No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>26) Do you have a process and implemented procedures for managing your software supply chain (e.g. libraries, repositories, frameworks, etc.)?</td>
+            <td>
+                <label for="answer26">
+                        @Html.RadioButton("answer26", "Yes") Yes
+                </label>
+                <label for="answer26">
+                        @Html.RadioButton("answer26", "No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                27) Does your solution support single-sign on (SSO) protocols for user and administrator authentication?
+            </td>
+            <td>
+                <label for="answer27">
+                        @Html.RadioButton("answer27", "Yes") Yes
+                </label>
+                <label for="answer27">
+                        @Html.RadioButton("answer27", "No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>28) Does your organization participate in InCommon or another eduGAIN affiliated trust federation?</td>
+            <td>
+                <label for="answer28">
+                        @Html.RadioButton("answer28", "Yes") Yes
+                </label>
+                <label for="answer28">
+                        @Html.RadioButton("answer28", "No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td valign="top">29) Does your application support integration with other authentication and authorization systems?</td>
+            <td>
+                <label for="answer29">
+                        @Html.RadioButton("answer29", "Yes") Yes
+                </label>
+                <label for="answer29">
+                        @Html.RadioButton("answer29", "No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                <p>30) Does your solution support any of the following Web SSO standards? [e.g., <span><a href="https://www.onelogin.com/learn/saml">SAML2</a></span> (with redirect flow), <span><a href="https://auth0.com/docs/authenticate/protocols/openid-connect-protocol">OIDC</a></span>, CAS, or other] </p>
+            </td>
+            <td>
+                <label for="answer30">
+                        @Html.RadioButton("answer30", "Yes") Yes
+                </label>
+                <label for="answer30">
+                        @Html.RadioButton("answer30", "No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>31) Do you support differentiation between email address and user idenitifier?</td>
+            <td>
+                <label for="answer31">
+                        @Html.RadioButton("answer31", "Yes") Yes
+                </label>
+                <label for="answer31">
+                        @Html.RadioButton("answer31", "No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>32) Do you alow the customer to specify attribute mappings for any needed information beyond a user identifier? [e.g., Reference eduPerson, ePPA/ePPN/ePE]</td>
+            <td>
+                <label for="answer32">
+                        @Html.RadioButton("answer32", "Yes") Yes
+                </label>
+                <label for="answer32">
+                        @Html.RadioButton("answer32", "No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                33) Are audit logs available to the institution that include AT LEAST all of the following: login, logout, actions performed, timestamp, and source IP address?
+            </td>
+            <td>
+                <label for="answer33">
+                        @Html.RadioButton("answer33", "Yes") Yes
+                </label>
+                <label for="answer33">
+                        @Html.RadioButton("answer33", "No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>34) If you don't support SSO, does your application and/or user-frontend/portal support multi-factor authentication? (e.g. Duo, Google Authenticator, OTP, etc.)</td>
+            <td>
+                <label for="answer34">
+                        @Html.RadioButton("answer34", "Yes") Yes
+                </label>
+                <label for="answer34">
+                        @Html.RadioButton("answer34", "No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>35) Does your application automatically lock the session or log-out an account after a period of inactivity?</td>
+            <td>
+                <label for="answer35">
+                        @Html.RadioButton("answer35", "Yes") Yes
+                </label>
+                <label for="answer35">
+                        @Html.RadioButton("answer35", "No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                36) Do you have a systems management and configuration strategy that encompasses servers, appliances, cloud services, applications, and mobile devices (company and employee owned)?
+            </td>
+            <td>
+                <label for="answer36">
+                        @Html.RadioButton("answer36", "Yes") Yes
+                </label>
+                <label for="answer36">
+                        @Html.RadioButton("answer36", "No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>37) Does the environment provide for dedicated <span><a href="https://www.digitalguardian.com/blog/saas-single-tenant-vs-multi-tenant-whats-difference">single-tenant</a></span> capabilities? If not, describe how your product or environment separates data from different customers (e.g. logically, physically, single tenancy, multi-tenancy).</td>
+            <td>
+                <label for="answer37">
+                    <textarea type="text" cols="40" rows="5" style="resize: none;" id="answer37" value="@Model.clientInfo.Question_37" name="answer37"></textarea>
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                38) Is sensitive data encrypted, using secure protocols/algorithms, in transport? (e.g. system-to-client)
+            </td>
+            <td>
+                <label for="answer38">
+                        @Html.RadioButton("answer38", "Yes") Yes
+                </label>
+                <label for="answer38">
+                        @Html.RadioButton("answer38", "No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>39) Is sensitive data encrypted, using secure protocols/algorithms, in storage? (e.g. disk encryption, at-rest files, and within a running database)</td>
+            <td>
+                <label for="answer39">
+                        @Html.RadioButton("answer39", "Yes") Yes
+                </label>
+                <label for="answer39">
+                        @Html.RadioButton("answer39", "No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>40) Does your staff (or third party) have access to Institutional data (e.g. financial, PHI, or other sensitive information) within the application/system?</td>
+            <td>
+                <label for="answer40">
+                        @Html.RadioButton("answer40", "Yes") Yes
+                </label>
+                <label for="answer40">
+                        @Html.RadioButton("answer40", "No") No
+                </label>
+            </td>
+        </tr>
+
+            @if (Model.success.Length > 0)
+            {
+            <div class="row mb-3">
+                <div class="col-sm-9">
+                    <div class='alert alert-success alert-dismissable fade show' role="alert">
+                        <strong>@Model.success</strong>
+                        <button type="button" class='btn-close' data-bs-dismiss='alert' aria-label="Close"></button>
+                    </div>
+                </div>
+            </div>
+            }
+
+
+        </form>
+    </tbody>
+</table>
+
+
+<div>‎ </div>
+<button type="submit" form="Page_2" class="btn btn-primary">Next Page</button>

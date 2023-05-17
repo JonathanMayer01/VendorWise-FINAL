@@ -1,0 +1,274 @@
+﻿@page
+@model HECVAT_Survey.Pages.Survey_1Model
+@{
+}
+
+<script> //javascript popup
+    function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+    }
+</script>
+
+
+        @if (Model.errorMessage.Length > 0)
+        {
+            <div class='alert alert-warning alert-dismissible fade show' role="alert">
+                <strong>@Model.errorMessage</strong>
+                <button type="button" class='btn-close' data-bs-dismiss='alert' aria-label="Close"></button>
+            </div>
+        }
+
+
+
+
+<table>
+    <thead>
+        <tr>
+            <th>Question</th>
+            <th>Answer</th>
+        </tr>
+    </thead>
+    <tbody>
+
+       
+
+        <form id="survey_1" action="" method="POST" class="form">
+
+    @*<img src="/images/sjryfre8k8f6i3ge.jpg" class="background" alt="" />*@
+
+        <tr>
+            <td>1) Have you had an unplanned disruption to this product/service within the last 12 months?</td>
+            <td>
+                <label for="answer1">
+                 @Html.RadioButton("answer1","Yes") Yes
+                </label>
+                <label for="answer1">
+                 @Html.RadioButton("answer1","No") No
+                </label>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>2) Does your service have a dedicated Information Security staff or office?</td>
+            <td>
+                <label for="answer2">
+                <textarea type="text" cols="40" rows="2" id="answer2" style="resize: none;" value="@Model.survey_1.question_2" name="answer2"></textarea>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>3) Does your service have a dedicated Software and Systems Development team? Including but not limited
+                to Customer Support and Product Management teams?
+            </td>
+            <td>
+                <label for="answer3">
+                    <textarea type="text" cols="40" rows="2" id="answer3" style="resize: none;" value="@Model.survey_1.question_3" name="answer3"></textarea>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>4) Have you recently undergone a <a target="_blank" rel="noopener noreferrer" href="https://www.preludeservices.com/about-us/ssae-18-audit-standards/">SSAE 18 / SOC2 audit</a>?</td>
+
+            <td>
+                <label for="answer4">
+                        @Html.RadioButton("answer4","Yes") Yes
+                </label>
+                <label for="answer4">
+                        @Html.RadioButton("answer4","No") No
+                </label>
+            </td>
+
+        </tr>
+        <tr>
+            <td>5) Do the service you provide confirm with a specific industry standard of security framework? Such as <a target="_blank" rel="noopener noreferrer" href=" https://hitachi-systems-security.com/nist-cis-sans-20-iso-27001-simplifying-security-control-assessments/">NIST Cybersecurity Framework, CIS Controls, ISO 27001</a>, or etc.. Please explain.</td>
+            <td>
+                <label for="answer5">
+                    <textarea type="text" cols="40" rows="2" style="resize: none;" id="answer5" value="@Model.survey_1.question_5" name="answer5"></textarea>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>6) Can you provide an overall system and/or application architecture diagrams including a full description of the data flow for all components of the system?</td>
+            <td>
+                <label for="answer6">
+                    <textarea type="text" cols="40" rows="2" style="resize: none;" id="answer6" value="@Model.survey_1.question_6" name="answer6"></textarea>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>7) Does your organization have a data privacy policy? Please provide a description at how student/facality information might be stored/used.</td>
+            <td>
+                <label for="answer7">
+                    <textarea type="text" cols="40" rows="2" style="resize: none;" id="answer7" value="@Model.survey_1.question_7" name="answer7"></textarea>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>8) Do you have a documented, and currently implemented, employee onboarding and offboarding policy?</td>
+            <td>
+                <label for="answer8">
+                        @Html.RadioButton("answer8","Yes") Yes
+                </label>
+                <label for="answer8">
+                    @Html.RadioButton("answer8","No") No
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>9) Do you have a well documented Business Continuity Plan (BCP) that is tested annually?</td>
+            <td>
+                <label for="answer9">
+                        @Html.RadioButton("answer9","Yes") Yes
+                </label>
+                <label for="answer9">
+                    @Html.RadioButton("answer9","No") No
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>10) Do you have a well documented Disaster Recovery Plan (DRP) that is tested annually?</td>
+            <td>
+                <label for="answer10">
+                        @Html.RadioButton("answer10","Yes") Yes
+                </label>
+                <label for="answer10">
+                    @Html.RadioButton("answer10","No") No
+                </label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>11) Do you have a documented change management process?</td>
+            <td>
+                <label for="answer11">
+                    <textarea type="text" cols="40" rows="2" id="answer11" style="resize: none;" value="@Model.survey_1.question_11" name="answer11"></textarea>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>12) Has a third party expert conducted an accessibility audit of the most recent version of your product?</td>
+            <td>
+                <label for="answer12">
+                    <textarea type="text" cols="40" rows="2" id="answer12" style="resize: none;" value="@Model.survey_1.question_12" name="answer12"></textarea>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>13) Do you have a documented and implemented process for verifying <a target="_blank" rel="noopener noreferrer" href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html"> accessibility conformance</a>?</td>
+            <td>
+                <label for="answer13">
+                    <textarea type="text" cols="40" rows="2" id="answer13" style="resize: none;" value="@Model.survey_1.question_13" name="answer13"></textarea>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>14) Have you adopted a technical or legal accessibility standard of conformance for the product in question?</td>
+            <td>
+                <label for="answer14">
+                    <textarea type="text" cols="40" rows="2" id="answer14" style="resize: none;" value="@Model.survey_1.question_14" name="answer14"></textarea>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>15) Can you provide a current, detailed accessibility roadmap with delivery timelines?</td>
+            <td>
+                <label for="answer15">
+                    <textarea type="text" cols="40" rows="2" id="answer15" style="resize: none;" value="@Model.survey_1.question_15" name="answer15"></textarea>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>16) Do you expect your staff to maintain a current skill set in IT accessibility?</td>
+            <td>
+                <label for="answer16">
+                    <textarea type="text" cols="40" rows="2" id="answer16" style="resize: none;" value="@Model.survey_1.question_16" name="answer16"></textarea>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>17) Do you have a documented and implemented process for reporting and tracking accessibility issues?</td>
+            <td>
+                <label for="answer17">
+                        @Html.RadioButton("answer17","Yes") Yes
+                </label>
+                <label for="answer17">
+                        @Html.RadioButton("answer17","No") No
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>18) Do you have documented processes and procedures for implementing accessibility into your development lifecycle?</td>
+            <td>
+                <label for="answer18">
+                        @Html.RadioButton("answer18","Yes") Yes
+                </label>
+                <label for="answer18">
+                        @Html.RadioButton("answer18","No") No
+                </label>
+            </td>
+        </tr>
+        <tr>
+        
+            <td>19) Can all functions of the application or service be performed using only the keyboard?</td>
+            <td>
+                <label for="answer19">
+                        @Html.RadioButton("answer19","Yes") Yes
+                </label>
+                <label for="answer19">
+                    @Html.RadioButton("answer19","No") No
+                </label>
+            </td>
+          
+        </tr>
+        <tr>
+            <td>20) Does your product rely on activating a special ‘accessibility mode’ a ‘lite version’ or accessing an alternate interface for accessibility purposes?</td>
+            <td>
+                <label for="answer20">
+                        @Html.RadioButton("answer20","Yes") Yes
+                </label>
+                <label for="answer20">
+                        @Html.RadioButton("answer20","No") No
+                </label>
+            </td>
+        </tr>
+
+<div>‎ </div>
+
+
+        @if (Model.success.Length > 0)
+        {
+        <div class="row mb-3">
+            <div class="col-sm-9">
+                <div class='alert alert-success alert-dismissible fade show' role="alert">
+                    <strong>@Model.success</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+        }
+
+        </form>
+    </tbody>
+    
+</table>
+
+<div>‎ </div>
+<button type="submit" form="survey_1" class="btn btn-primary">Next Page</button>
+
+
+
+
+@*
+<div class="popup" onclick="myFunction()">
+    Click me to toggle the popup!
+    <span class="popuptext" id="myPopup">A Simple Popup!</span>
+</div>
+*@
+
+@*<form method="get">
+    <button type="Next Page" class="btn btn-primary" asp-page="/Page2(Brett)">Next Page</button>
+</form>
+*@
+

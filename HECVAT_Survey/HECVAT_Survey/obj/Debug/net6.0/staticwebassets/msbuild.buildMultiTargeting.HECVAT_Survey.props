@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\HECVAT_Survey.props" />
+</Project>

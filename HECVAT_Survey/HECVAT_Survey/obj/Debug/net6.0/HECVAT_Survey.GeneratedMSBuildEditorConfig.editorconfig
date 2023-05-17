@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HECVAT_Survey
+build_property.RootNamespace = HECVAT_Survey
+build_property.ProjectDir = C:\Users\Jonathan\Desktop\College.HS\Elmhurst\4th Semester\Software Engineering (CS-475)\Capstone Project\HECVAT_Survey\HECVAT_Survey\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Jonathan\Desktop\College.HS\Elmhurst\4th Semester\Software Engineering (CS-475)\Capstone Project\HECVAT_Survey\HECVAT_Survey
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Jonathan/Desktop/College.HS/Elmhurst/4th Semester/Software Engineering (CS-475)/Capstone Project/HECVAT_Survey/HECVAT_Survey/Pages/Clients.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jonathan/Desktop/College.HS/Elmhurst/4th Semester/Software Engineering (CS-475)/Capstone Project/HECVAT_Survey/HECVAT_Survey/Pages/Completed_Page.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGxldGVkX1BhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jonathan/Desktop/College.HS/Elmhurst/4th Semester/Software Engineering (CS-475)/Capstone Project/HECVAT_Survey/HECVAT_Survey/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jonathan/Desktop/College.HS/Elmhurst/4th Semester/Software Engineering (CS-475)/Capstone Project/HECVAT_Survey/HECVAT_Survey/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jonathan/Desktop/College.HS/Elmhurst/4th Semester/Software Engineering (CS-475)/Capstone Project/HECVAT_Survey/HECVAT_Survey/Pages/Login_Page.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5fUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jonathan/Desktop/College.HS/Elmhurst/4th Semester/Software Engineering (CS-475)/Capstone Project/HECVAT_Survey/HECVAT_Survey/Pages/Page2(Brett).cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZTIoQnJldHQpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jonathan/Desktop/College.HS/Elmhurst/4th Semester/Software Engineering (CS-475)/Capstone Project/HECVAT_Survey/HECVAT_Survey/Pages/Page3(Jennifer).cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZTMoSmVubmlmZXIpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jonathan/Desktop/College.HS/Elmhurst/4th Semester/Software Engineering (CS-475)/Capstone Project/HECVAT_Survey/HECVAT_Survey/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jonathan/Desktop/College.HS/Elmhurst/4th Semester/Software Engineering (CS-475)/Capstone Project/HECVAT_Survey/HECVAT_Survey/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jonathan/Desktop/College.HS/Elmhurst/4th Semester/Software Engineering (CS-475)/Capstone Project/HECVAT_Survey/HECVAT_Survey/Pages/Signup-Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbnVwLUZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jonathan/Desktop/College.HS/Elmhurst/4th Semester/Software Engineering (CS-475)/Capstone Project/HECVAT_Survey/HECVAT_Survey/Pages/Survey_1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VydmV5XzEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jonathan/Desktop/College.HS/Elmhurst/4th Semester/Software Engineering (CS-475)/Capstone Project/HECVAT_Survey/HECVAT_Survey/Pages/Tutorial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHV0b3JpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jonathan/Desktop/College.HS/Elmhurst/4th Semester/Software Engineering (CS-475)/Capstone Project/HECVAT_Survey/HECVAT_Survey/Pages/ViewAnswers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld0Fuc3dlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jonathan/Desktop/College.HS/Elmhurst/4th Semester/Software Engineering (CS-475)/Capstone Project/HECVAT_Survey/HECVAT_Survey/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jonathan/Desktop/College.HS/Elmhurst/4th Semester/Software Engineering (CS-475)/Capstone Project/HECVAT_Survey/HECVAT_Survey/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jonathan/Desktop/College.HS/Elmhurst/4th Semester/Software Engineering (CS-475)/Capstone Project/HECVAT_Survey/HECVAT_Survey/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-3l7818le1t

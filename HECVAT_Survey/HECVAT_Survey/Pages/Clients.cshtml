@@ -1,0 +1,77 @@
+﻿@page
+@model HECVAT_Survey.Pages.ClientsModel
+@{
+}
+
+<br>
+<h2>List of VendorWise Approved Clients</h2>
+
+@if (Model.errorMessage.Length > 0)
+{
+	<div class='alert alert-warning alert-dismissible fade show' role="alert">
+		<strong>@Model.errorMessage</strong>
+		<button type="button" class='btn-close' data-bs-dismiss='alert' aria-label="Close"></button>
+	</div>
+}
+
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>ID</th>
+			<th>Name</th>
+			<th>Email</th>
+			<th>Phone</th>
+			<th>Address</th>
+			@*<th>Action</th>*@
+
+		</tr>
+	</thead>
+
+	@*DISPLAY TABLE RESULTS*@
+	<tbody>
+		@foreach(var item in Model.listClients)
+		{
+		<tr>
+			<td>@item.Customer_ID</td>
+			<td>@item.Customer_Username</td>
+			<td>@item.Customer_Email</td>
+			<td>@item.Customer_Phone</td>
+			<td>@item.Customer_City</td>
+			@*<td>
+				<a class="btn btn-primary btn-sm" href="/ViewAnswers?id=@item.Customer_ID">View Responses</a>
+			</td>*@
+		</tr>
+		}
+	</tbody>
+
+
+
+</table>
+
+<div>‎ </div>
+<div>‎ </div>
+<div>‎ </div>
+<div>‎ </div>
+<div>‎ </div>
+<div>‎ </div>
+<div>‎ </div>
+<div>‎ </div>
+<div>‎ </div>
+<div>‎ </div>
+<div>‎ </div>
+<div>‎ </div>
+<div>‎ </div>
+<div>‎ </div>
+<div>‎ </div>
+<div>‎ </div>
+<div>‎ </div>
+<div>‎ </div>
+<div>‎ </div>
+<div>‎ </div>
+<div>‎ </div>
+<div>‎ </div>
+<div>‎ </div>
+<div>‎ </div>
+<div>‎ </div>
+<div>‎ </div>

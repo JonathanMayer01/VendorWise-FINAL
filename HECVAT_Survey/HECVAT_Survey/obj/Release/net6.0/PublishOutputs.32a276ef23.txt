@@ -1,0 +1,13 @@
+C:\Users\Jonathan\Desktop\College.HS\Elmhurst\4th Semester\Software Engineering (CS-475)\Capstone Project\HECVAT_Survey\HECVAT_Survery\obj\Release\net6.0\PubTmp\Out\HECVAT_Survery.exe
+C:\Users\Jonathan\Desktop\College.HS\Elmhurst\4th Semester\Software Engineering (CS-475)\Capstone Project\HECVAT_Survey\HECVAT_Survery\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Jonathan\Desktop\College.HS\Elmhurst\4th Semester\Software Engineering (CS-475)\Capstone Project\HECVAT_Survey\HECVAT_Survery\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\Jonathan\Desktop\College.HS\Elmhurst\4th Semester\Software Engineering (CS-475)\Capstone Project\HECVAT_Survey\HECVAT_Survery\obj\Release\net6.0\PubTmp\Out\HECVAT_Survery.dll
+C:\Users\Jonathan\Desktop\College.HS\Elmhurst\4th Semester\Software Engineering (CS-475)\Capstone Project\HECVAT_Survey\HECVAT_Survery\obj\Release\net6.0\PubTmp\Out\HECVAT_Survery.deps.json
+C:\Users\Jonathan\Desktop\College.HS\Elmhurst\4th Semester\Software Engineering (CS-475)\Capstone Project\HECVAT_Survey\HECVAT_Survery\obj\Release\net6.0\PubTmp\Out\HECVAT_Survery.runtimeconfig.json
+C:\Users\Jonathan\Desktop\College.HS\Elmhurst\4th Semester\Software Engineering (CS-475)\Capstone Project\HECVAT_Survey\HECVAT_Survery\obj\Release\net6.0\PubTmp\Out\HECVAT_Survery.pdb
+C:\Users\Jonathan\Desktop\College.HS\Elmhurst\4th Semester\Software Engineering (CS-475)\Capstone Project\HECVAT_Survey\HECVAT_Survery\obj\Release\net6.0\PubTmp\Out\System.Data.SqlClient.dll
+C:\Users\Jonathan\Desktop\College.HS\Elmhurst\4th Semester\Software Engineering (CS-475)\Capstone Project\HECVAT_Survey\HECVAT_Survery\obj\Release\net6.0\PubTmp\Out\runtimes\win-arm64\native\sni.dll
+C:\Users\Jonathan\Desktop\College.HS\Elmhurst\4th Semester\Software Engineering (CS-475)\Capstone Project\HECVAT_Survey\HECVAT_Survery\obj\Release\net6.0\PubTmp\Out\runtimes\win-x64\native\sni.dll
+C:\Users\Jonathan\Desktop\College.HS\Elmhurst\4th Semester\Software Engineering (CS-475)\Capstone Project\HECVAT_Survey\HECVAT_Survery\obj\Release\net6.0\PubTmp\Out\runtimes\win-x86\native\sni.dll
+C:\Users\Jonathan\Desktop\College.HS\Elmhurst\4th Semester\Software Engineering (CS-475)\Capstone Project\HECVAT_Survey\HECVAT_Survery\obj\Release\net6.0\PubTmp\Out\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Jonathan\Desktop\College.HS\Elmhurst\4th Semester\Software Engineering (CS-475)\Capstone Project\HECVAT_Survey\HECVAT_Survery\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
